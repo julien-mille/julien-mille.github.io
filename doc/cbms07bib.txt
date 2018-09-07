@@ -1,0 +1,9 @@
+@INPROCEEDINGS{Mille07a,
+  author = {Mille, J. and Boné, R. and Makris, P. and Cardot, H.},
+  title = {Segmentation and tracking of the left ventricle in 3D MRI sequences using an active surface model},
+  booktitle = {IEEE International Symposium on Computer-Based Medical Systems (CBMS)},
+  year = {2007},
+  pages = {257-262},
+  address = {Maribor, Slovénie},
+  owner = {julien.mille},
+}

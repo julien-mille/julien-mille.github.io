@@ -1,0 +1,9 @@
+@INPROCEEDINGS{Mille13a,
+  author = {Mille, J. and Bougleux, S. and Cohen, L.},
+  title = {Combination of paths for interactive segmentation},
+  booktitle = {British Machine Vision Conference},
+  year = {2013},
+  pages = {},
+  address = {Bristol, UK},
+  owner = {julien.mille},
+}

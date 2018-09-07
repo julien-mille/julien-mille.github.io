@@ -1,0 +1,7 @@
+@INPROCEEDINGS{Mille12a,
+  author = {Mille, J. and Bougleux, S. and Cohen, L.},
+  title = {Minimally overlapping paths sets for closed contour extraction},
+  booktitle = {International Conference on Computer Vision Theory and Applications (VISAPP)},
+  year = {2012 (to appear)},
+  address = {Rome, Italy},
+}

@@ -1,0 +1,9 @@
+@INPROCEEDINGS{Mille11a,
+  author = {Mille, J. and Rose, J-L.},
+  title = {Region tracking with narrow perception of background},
+  booktitle = {IEEE International Conference on Image Processing (ICIP)},
+  year = {2011},
+  pages = {},
+  address = {Brussel, Belgium},
+  owner = {julien.mille},
+}

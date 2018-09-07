@@ -1,0 +1,9 @@
+@ARTICLE{Mille09,
+  author = {Mille, J.},
+  title = {Narrow band region-based active contours and surfaces for {2D} and {3D} segmentation},
+  journal = {Computer Vision and Image Understanding},
+  year = {2009},
+  volume = {113},
+  number = {9},
+  pages = {946-965},
+}

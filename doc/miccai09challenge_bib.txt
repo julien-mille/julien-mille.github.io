@@ -1,0 +1,7 @@
+@ARTICLE{Mille09f,
+  author = {Mille, J. and Benmansour, F. and Cohen, L.},
+  title = {Carotid lumen segmentation based on tubular anisotropy and contours without edges},
+  journal = {The MIDAS Journal - Carotid Lumen Segmentation and Stenosis Grading (Grand Challenge)},
+  year = {2009},
+  owner = {julien.mille},
+}

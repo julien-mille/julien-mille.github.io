@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Julien Mille - Research</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><span class="logo_colour">Julien Mille</span></h1>
+          <h2>Homepage</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li class="selected"><a href="research.html">Research</a></li>
+          <li><a href="code.html">Code</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="publis.html">Publications</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div id="site_content">
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Research</h1>
+	<p>
+	<!--Since september 2009, I have been working in the <a href="http://liris.cnrs.fr">LIRIS</a> (<i>Laboratoire d'InfoRmatique
+	en Image et Syst&egrave;mes d'information</i>, which you would translate by Computer Science Laboratory in Imaging and Information Systems),
+	in the <a href="http://liris.cnrs.fr/imagine/">Imagine</a> team.-->
+	I am particularly interested in image and video analysis, especially object detection, segmentation and tracking using optimization methods.
+	</p>
+				  
+	<h4>Joint segmentation and tracking</h4>
+				  
+	<p>
+	My research first focuses on joint segmentation and tracking of multiple objects within image sequences. The extraction of moving objects is performed through spatiotemporal segmentation, formulated as an energy minimization problem. The energy to be optimized is designed according to the various assumptions made on spatial and temporal consistency of appearance, shape and motion of objects and background. I am interested in both continuous (variational) optimization using multiple level set functions, as well as discrete labeling problems, related to Markov Random Fields and graph cuts.</p>
+	
+	<table class="images">
+          <tr>
+	    <td><img src="images/croco_seg.gif" width="360" alt="My crocodile rocks!"></td>
+            <td><img src="images/pets2009_seg.gif" width="360" alt="Tracking people from the PETS2009 dataset"></td>
+	  </tr>
+        </table>
+	<p>	  
+	Especially, a part of my work deals with the formulation of novel local data terms devoted to region tracking. For example, this can be performed by matching color statistics between successive frames. A common underlying assumption in this context is that color statistics can be confidently estimated in a global manner over object and background regions. This can be a drawback for tracking in real scenes with cluttered backgrounds, where statistical color data is highly scattered, preventing the estimation of reliable color statistics for object/background discrimination. To overcome this limitation, an approach based on a <i>short-sight</i> modeling of background is proposed, which concentrates on the vicinity of tracked objects and thus extract more consistent statistical data for region separation. Related publications are:</p>
+				  
+        <p class="refintext">
+        J. Mille and J-L. Rose, 
+        <strong>Multitarget region tracking based on short-sight modeling of background and color distribution temporal variation</strong>, 
+        British Machine Vision Conference (BMVC), Dundee, Scotland, 2011<br>
+	J. Mille and J-L. Rose, 
+        <strong>Region tracking with narrow perception of background</strong>, 
+        IEEE International Conference on Image Processing (ICIP), Brussels, Belgique, 2011<br><br>
+        </p>
+	
+        <h4>Closed contour extraction using minimal paths</h4>
+	<p>
+	Minimum cost paths have been extensively studied tools for image segmentation with prior interaction. Provided a set of user-provided landmark points along the boundary of interest, paths are computed between these points in order to build a closed contour. Optimality is the main advantage of such approaches, since in most cases, a minimum cost path can be efficiently found as the global solution of the corresponding minimization problem, as Dijkstra's algorithm for shortest paths in directed graphs.
+	</p>
+
+	<p>
+	A path between two landmark points may be optimal according to the chosen edge-based cost function (the potential), but might turn out irrelevant when assembled with paths emanating from other landmark points to build a closed contour. Given two endpoints, other good paths can be built in addition to the shortest one. These potentially good paths are introduced as <i>admissible</i> paths. 
+        </p>
+
+	<table class="images">
+          <tr>
+	    <td><img src="images/piecewise_geodesic_paths/hand01_400_light.png" width="380" alt="Initial image"></td>
+            <td><img src="images/piecewise_geodesic_paths/hand01_400_potential.png" width="380" alt="Potential image"></td>
+	  </tr>
+          <tr>
+	    <td><img src="images/piecewise_geodesic_paths/hand01_400_distancemap.png" width="380" alt="Geodesic distance map"></td>
+            <td><img src="images/piecewise_geodesic_paths/hand01_400_adpaths.png" width="380" alt="Saddle points along medial curve and corresponding admissible paths"></td>
+	  </tr>
+        </table>
+
+	<p>Related publications are:</p>
+				  
+        <p class="refintext">
+	J. Mille, S. Bougleux and L.D. Cohen, 
+        <strong>Combination of piecewise-geodesic paths for interactive segmentation</strong>, 
+        International Journal of Computer Vision, 2014<br>
+        J. Mille, S. Bougleux and L.D. Cohen, 
+        <strong>Combination of paths for interactive segmentation</strong>, 
+        British Machine Vision Conference (BMVC), Bristol, England, 2013<br>
+        J. Mille, S. Bougleux and L.D. Cohen, 
+        <strong>Minimally overlapping paths sets for closed contour extraction</strong>, 
+        International Conference on Computer Vision Theory and Applications (VISAPP), Rome, Italy, 2012<br><br>         
+	</p>	
+				  
+	<h4>Previous work (2004 - 2009)</h4>
+	<p>
+	A summary of my past research performed during my PhD thesis in the <i>Universit&eacute; de Tours</i> and postdoc in the <i>CEREMADE</i> at <i>Universit&eacute; Paris-Dauphine</i> can be found in PDF format <a href="doc/travaux.pdf">here</a> (in french).
+	</p>
+	
+	<h1>Academic projects and platforms</h1>
+	
+	<ul>
+        <li> <i> Projet Jeunes Chercheurs GdR ISIS <a href="http://gdr-isis.fr/jeunes-chercheurs.html">&quot;Coop&eacute;ration des chemins minimaux et contours actifs polygonaux pour la d&eacute;tection d’objets&quot;</a> </i> (2010-2012). <strong>Combination of minimal paths and polygonal (parametric) active contours for object detection</strong>. Joint work with <a href="https://bougleux.users.greyc.fr/">S&eacute;bastien BOUGLEUX</a> and <a href="https://www.ceremade.dauphine.fr/~cohen/">Laurent COHEN</a></li> 
+	<li> ANR project <a href="http://liris.univ-lyon2.fr/reves">ReVeS</a> (2010-2013). <strong>Plant species recognition using image analysis on mobile phones</strong>. Constrained segmentation methods with prior knowledge and extraction of specific features devoted to the detection and recognition of tree leaves. Headed by <a href="http://liris.cnrs.fr/~ltougne">Laure TOUGNE</a> </li>
+	<li> IMU project <a href="http://imu.universite-lyon.fr/bilan-appels-internes-de-recherche-2013/projet-riviere-209479.kjsp">RIVIERE</a> (started in 2013). <strong> Bringing city back to nature: assessing risks and well-being</strong>. Computer vision and machine learning aspects: supervised full scene labeling of urban scenes shot with a mobile camera endowed with an eye-tracking system. Headed by <a href="http://marylisecottet.blogspot.fr/">Marylise COTTET</a> from the <a href="http://umr5600.ish-lyon.cnrs.fr">EVS</a> lab</li>
+	<li> The <a href="http://liris.cnrs.fr/liris-vision/doku.php">LIRIS-VISION</a> platform. A set of C++ applications and libraries related to the research in computer vision, machine learning and image processing done at the LIRIS</li>
+	</ul>
+	
+
+	<h1>PhD students and post-docs</h1>
+	
+	Here is my list of co-advised PhD students:
+	<ul>
+	<li> <a href="https://fabienbaradel.github.io">Fabien BARADEL</a>. <strong>Deep learning for understanding humans: gestures, pose, activities</strong>. PhD in progress, started in september 2016, supervised by <a href="http://liris.cnrs.fr/~cwolf">Christian WOLF</a> </li>
+    <li> <a href="https://sites.google.com/site/drkhanrizwan17/">Rizwan Ahmed KHAN</a>. <strong>Supervised full scene labeling of urban scenes shot with a mobile camera endowed with an eye-tracking system</strong>. Post-doc in progress, started in october 2013, co-supervised with <a href="http://liris.cnrs.fr/christian.wolf/">Christian WOLF</a></li>
+	<li> <a href="http://liris.cnrs.fr/aurelie.leborgne">Aur&eacute;lie LEBORGNE</a>. <strong>Shape analysis: segmentation and feature extraction</strong>. Started in september 2012, PhD defended in july 2016, supervised by <a href="http://liris.cnrs.fr/~ltougne">Laure TOUGNE</a> </li>
+	<li> Imtiaz ALI. Object detection in moving backgrounds. Started in october 2008, PhD defended in march 2012, supervised by <a href="http://liris.cnrs.fr/~ltougne">Laure TOUGNE</a> </li>
+	</ul>
+	
+      </div>
+    </div>
+    <div id="footer">
+      Last modified: 5th september 2017 | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a>
+    </div>
+  </div>
+</body>
+</html>

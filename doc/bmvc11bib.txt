@@ -1,0 +1,9 @@
+@INPROCEEDINGS{Mille11b,
+  author = {Mille, J. and Rose, J-L.},
+  title = {Multitarget region tracking based on short-sight modeling of background and color distribution temporal variation},
+  booktitle = {British Machine Vision Conference},
+  year = {2011},
+  pages = {},
+  address = {Dundee, UK},
+  owner = {julien.mille},
+}
