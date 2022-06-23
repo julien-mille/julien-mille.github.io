@@ -1,9 +1,0 @@
-@INPROCEEDINGS{Mille09c,
-  author = {Mille, J. and Cohen, L.},
-  title = {Deformable tree models for 2D and 3D branching structures extraction},
-  booktitle = {IEEE Computer Vision and Pattern Recognition (CVPR) workshop on Mathematical Methods in Biomedical Image Analysis (MMBIA)},
-  year = {2009},
-  pages = {149-156},
-  address = {Miami, USA},
-  owner = {julien.mille},
-}

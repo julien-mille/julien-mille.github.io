@@ -1,9 +1,0 @@
-@INPROCEEDINGS{Mille07d,
-  author = {Mille, J. and Boné, R. and Makris, P. and Cardot, H.},
-  title = {Segmentation et suivi de l'endocarde dans des séquences {IRM} {3D} par surface active},
-  booktitle = {$\ieme{21}$ colloque GRETSI : Traitement du Signal et des Images},
-  year = {2007},
-  pages = {81-84},
-  address = {Troyes, France},
-  owner = {julien.mille},
-}

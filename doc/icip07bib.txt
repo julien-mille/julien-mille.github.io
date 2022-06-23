@@ -1,9 +1,0 @@
-@INPROCEEDINGS{Mille07b,
-  author = {Mille, J. and Boné, R. and Makris, P. and Cardot, H.},
-  title = {{2D} and {3D} deformable models with narrow band region energy},
-  booktitle = {IEEE International Conference on Image Processing (ICIP)},
-  year = {2007},
-  pages = {57-60},
-  address = {San Antonio, USA},
-  owner = {julien.mille},
-}

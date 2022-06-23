@@ -1,9 +1,0 @@
-@INPROCEEDINGS{Mille06b,
-  author = {Mille, J. and Boné, R. and Makris, P. and Cardot, H.},
-  title = {Greedy algorithm and physics-based method for active contours and surfaces: a comparative study},
-  booktitle = {IEEE International Conference on Image Processing (ICIP)},
-  year = {2006},
-  pages = {1645-1648},
-  address = {Atlanta, USA},
-  owner = {julien.mille},
-}

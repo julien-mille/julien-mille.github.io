@@ -1,9 +1,0 @@
-@INPROCEEDINGS{Mille10a,
-  author = {Mille, J. and Cohen, L.},
-  title = {{3D} {CTA} image segmentation with a generalized cylinder-based tree model},
-  booktitle = {IEEE International Symposium on Biomedical Imaging: From Nano to Macro (ISBI)},
-  year = {2010},
-  pages = {1045-1048},
-  address = {Rotterdam, The Netherlands},
-  owner = {julien.mille}
-}
